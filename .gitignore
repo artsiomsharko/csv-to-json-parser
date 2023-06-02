@@ -1,0 +1,5 @@
+node_modules
+.vscode
+
+assets/*.json
+assets/large_file.csv
