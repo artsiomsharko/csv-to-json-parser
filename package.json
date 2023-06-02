@@ -5,10 +5,6 @@
   "main": "src/index.js",
   "scripts": {
     "parse": "node ./src/index.js",
-    "small": "node ./src/index.js --sourceFile \"assets/small.csv\" --resultFile \"assets/small.json\" --separator \",\"",
-    "middle": "node ./src/index.js --sourceFile \"assets/middle.csv\" --resultFile \"assets/middle.json\"",
-    "d1": "node ./src/index.js --sourceFile \"D://assets/test.csv\" --resultFile \"D://assets/test.json\"",
-    "d2": "node ./src/index.js --sourceFile \"D://assets/large.csv\" --resultFile \"D://assets/large.json\"",
     "generate": "node ./test/mockData.js"
   },
   "author": "Artem Sharko <artsiom.sharko@innowise-group.com>",

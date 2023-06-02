@@ -3,11 +3,11 @@ const path = require("path");
 
 console.time("CSV file successfully created in");
 
-const mockPath = path.join("D:\\assets", "test.csv");
-const resultPath = path.join("D:\\assets", "large_second.csv");
-
 const sizeInGb = 1;
 const neededSize = sizeInGb * 1024 * 1024 * 1024;
+
+const mockPath = path.join("assets", "test.csv");
+const resultPath = path.join("assets", `large-${sizeInGb}Gb.csv`);
 
 const mock = fs.readFileSync(mockPath).toString();
 const header = mock.substring(0, mock.indexOf("\r"));

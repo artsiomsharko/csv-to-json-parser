@@ -1,5 +1,14 @@
 # Csv to json parser
 
+## Using
+
+Create .env by example .env.example
+
+```console
+npm install
+npm run parse --sourceFile "" --resultFile ""
+```
+
 ## Short Description
 
 You need to build a command line tool which allows the user to convert CSV files to JSON.
@@ -33,9 +42,11 @@ This application should accept following command line arguments using process.ar
 
 An example of running the app with command line arguments:
 
-    - node csvToJson.js --sourceFile "source.csv" --resultFile "result.json" --separator ","
-    - node csvToJson.js --sourceFile "source.csv" --resultFile "result.json" --separator " "
-    - node csvToJson.js --sourceFile "source.csv" --resultFile "result.json"
+    - node ./src/index.js --sourceFile "source.csv" --resultFile "result.json" --separator ","
+
+    - node ./src/index.js --sourceFile "source.csv" --resultFile "result.json" --separator " "
+
+    - node ./src/index.js --sourceFile "source.csv" --resultFile "result.json"
 
 ### Testing
 
